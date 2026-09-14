@@ -1,0 +1,32 @@
+{
+  "journalArticles": [
+    {
+      "title": "Exploring the Digital Spaces of Women Artisans in Kashida Crafts: Case Stories from the Thar Desert of Western Rajasthan",
+      "journal": "Journal of Asian and African Studies",
+      "authors": "Shripama Thounaojam & Dr. Jaya Kritika Ojha",
+      "status": "Accepted"
+    },
+    {
+      "title": "Resilience and Digital Transformation of Women Vendors in Conflict-Prone Manipur",
+      "journal": "Target journal to be confirmed",
+      "authors": "Shripama Thounaojam",
+      "status": "Data analysis underway"
+    }
+  ],
+  "conferences": [
+    {
+      "date": "17 May 2025",
+      "title": "Awareness of Digital Technologies: A Case Study on Women Vendors of Ima Market, Manipur",
+      "type": "International conference",
+      "organiser": "Sage University, Indore",
+      "status": "Presented online"
+    },
+    {
+      "date": "9-10 Oct 2024",
+      "title": "Uncovering the Journey of Women Artisans in Kashida Crafts from the Thar Desert of Western Rajasthan in the Digital Era",
+      "type": "National seminar",
+      "organiser": "Dept. of Geography & History, Shri Ratanlal Kanwarlal Patni Girl's College, Kishangarh",
+      "status": "Presented offline"
+    }
+  ]
+}

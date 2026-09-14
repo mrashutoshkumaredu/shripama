@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# After you connect this site to Netlify, turn on Identity + Git Gateway
+# in Site settings > Identity, then invite yourself as a user.
+# That's what makes the login on /admin/ actually work.
+
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    files:
+      - file: "content/blog.json"
+        label: "Blog Posts"
+        name: "blog"
+        fields:
+          - label: "Posts"
+            name: "posts"
+            widget: "list"
+            summary: "{{title}} — {{date}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL slug", name: "slug", widget: "string", hint: "Lowercase, hyphens only, e.g. why-i-study-ima-keithel. Must be unique." }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Category", name: "category", widget: "string", default: "Reflection" }
+              - { label: "Excerpt", name: "excerpt", widget: "text" }
+              - { label: "Body", name: "body", widget: "markdown" }
+              - { label: "Draft (hide from the public site)", name: "draft", widget: "boolean", default: true }
+
+  - name: "publications"
+    label: "Publications"
+    files:
+      - file: "content/publications.json"
+        label: "Publications & Conferences"
+        name: "publications"
+        fields:
+          - label: "Journal Articles"
+            name: "journalArticles"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Journal", name: "journal", widget: "string" }
+              - { label: "Authors", name: "authors", widget: "string" }
+              - { label: "Status", name: "status", widget: "string", hint: "e.g. Accepted, Under review, Published" }
+          - label: "Conference Presentations"
+            name: "conferences"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Type", name: "type", widget: "string" }
+              - { label: "Organiser", name: "organiser", widget: "string" }
+              - { label: "Status", name: "status", widget: "string" }
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - file: "content/settings.json"
+        label: "Contact & Social Links"
+        name: "settings"
+        fields:
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - { label: "Department / University Address", name: "address", widget: "text", required: false }
+          - { label: "LinkedIn URL", name: "linkedin", widget: "string", required: false }
+          - { label: "Google Scholar URL", name: "googleScholar", widget: "string", required: false }
+          - { label: "ORCID URL", name: "orcid", widget: "string", required: false }
+          - { label: "ResearchGate URL", name: "researchgate", widget: "string", required: false }

@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "title": "Why I Study Ima Keithel",
+      "slug": "why-i-study-ima-keithel",
+      "date": "2026-01-10",
+      "category": "Reflection",
+      "excerpt": "Ima Keithel isn't just a research site for me — it's a market I grew up hearing about, run entirely by women who have kept it running through decades of unrest. This post is about how that personal connection became a doctoral question.",
+      "body": "Long before it became the subject of my doctoral thesis, Ima Keithel was simply a fact of life — a market in the heart of Imphal that has been run entirely by women for generations, through peace and through unrest alike. Growing up, I understood it the way most people from Manipur do: as an institution, not a research site.\n\nThat changed when I started reading about how conflict and digital technology were reshaping women's livelihoods elsewhere — in Kashmir, in Iraq, in the informal markets of East Java. The literature was rich, but something was missing: nobody had asked these questions here, in a market I knew, about women whose resilience I had grown up watching without naming it as such.\n\nSo the question that anchors my thesis is really quite personal: when the ground keeps shifting — politically, economically — what actually helps women vendors keep going? And where does a smartphone, a QR code, or a WhatsApp group genuinely make a difference, versus where does it fall short of what these women really need?\n\nI don't come to this work as an outsider looking in. I come to it as someone trying to translate something I already know to be true — that these women are resilient — into research that is rigorous enough to be taken seriously, and honest enough to reflect what they actually told me.\n\n*This is a first draft. Edit it here in the admin panel any time — add a specific memory, a family connection, or a moment from early fieldwork.*",
+      "draft": false
+    },
+    {
+      "title": "Notes from the Market Floor",
+      "slug": "notes-from-the-market-floor",
+      "date": "2026-02-01",
+      "category": "Fieldwork",
+      "excerpt": "Reflections on stratified sampling across nine vendor categories — and what conversations with vendors selling everything from fish to handwoven textiles taught me before a single questionnaire was filled out.",
+      "body": "*Draft in progress — write your fieldwork notes here and switch \"Draft\" to off in the admin panel to publish.*",
+      "draft": true
+    },
+    {
+      "title": "Why \"Resilience\" Is the Right Word",
+      "slug": "why-resilience-is-the-right-word",
+      "date": "2026-02-15",
+      "category": "Theory",
+      "excerpt": "On choosing Digital Divide Theory and Resilience Theory as the backbone of the thesis, and why \"coping mechanism\" — adopt, adapt, transform — felt truer to what I was seeing than a simple adoption model.",
+      "body": "*Draft in progress — write your theory reflections here and switch \"Draft\" to off in the admin panel to publish.*",
+      "draft": true
+    }
+  ]
+}
